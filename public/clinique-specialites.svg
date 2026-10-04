@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 800" width="1440" height="800">
+  <defs>
+    <radialGradient id="toothEnamel" cx="35%" cy="25%" r="70%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="70%" stop-color="#F1F5F9" />
+      <stop offset="100%" stop-color="#CBD5E1" />
+    </radialGradient>
+    <radialGradient id="gumPink" cx="45%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FCE7F3" />
+      <stop offset="45%" stop-color="#E5A9C6" />
+      <stop offset="100%" stop-color="#9D5C7B" />
+    </radialGradient>
+    <linearGradient id="dentinRed" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#993B3B" />
+      <stop offset="50%" stop-color="#C85A5A" />
+      <stop offset="100%" stop-color="#A84444" />
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.18" />
+    </filter>
+  </defs>
+
+  <!-- Sage Slate Background -->
+  <rect width="1440" height="800" fill="#53615A" />
+
+  <!-- Subtle Orbit Rings -->
+  <circle cx="710" cy="640" r="350" fill="none" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1.5" />
+  <circle cx="710" cy="640" r="460" fill="none" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1.5" />
+
+  <!-- Top Navigation & Logo -->
+  <g transform="translate(30, 28)">
+    <text x="0" y="38" font-family="Georgia, serif" font-style="italic" font-size="44" fill="#FFFFFF">White</text>
+    <text x="115" y="22" font-family="Kanit, sans-serif" font-weight="400" font-size="16" fill="#FFFFFF" letter-spacing="0.5">Dental Clinic</text>
+    <text x="115" y="42" font-family="sans-serif" font-weight="600" font-size="16" fill="#E2E8F0">مصحة الأسنان</text>
+  </g>
+
+  <!-- Section Heading & Nav -->
+  <text x="720" y="54" font-family="Kanit, sans-serif" font-weight="300" font-size="52" fill="#FFFFFF" text-anchor="middle">Nos différentes spécialités</text>
+  <g font-family="Kanit, sans-serif" font-size="15" font-weight="300" fill="#E2E8F0" transform="translate(455, 65)">
+    <text x="0" y="0">Accueil</text>
+    <text x="82" y="0">À Propos</text>
+    <text x="178" y="0">Spécialités +</text>
+    <text x="298" y="0">Technologies +</text>
+    <text x="438" y="0">Plus +</text>
+  </g>
+
+  <!-- Center 3D Anatomical Tooth Model -->
+  <g transform="translate(465, 145)" filter="url(#softShadow)">
+    <!-- Glossy Pink Gum Base -->
+    <path d="M5,570 C18,450 65,355 150,335 C235,315 340,325 415,375 C475,418 502,510 508,635 L0,635 Z" fill="url(#gumPink)" />
+
+    <!-- White Enamel Crown & Dual Roots -->
+    <path d="M85,35 C135,-5 205,5 255,25 C310,5 385,12 425,55 C455,95 445,195 415,315 C390,415 365,535 335,610 C322,638 298,635 288,595 C270,515 262,400 240,395 C218,395 208,510 192,590 C182,630 160,630 145,595 C115,515 90,395 62,285 C30,175 35,75 85,35 Z" fill="url(#toothEnamel)" />
+
+    <!-- Red Dentin Inner Layer -->
+    <path d="M72,125 C140,108 215,142 255,142 C305,142 365,105 402,125 C418,145 398,255 375,355 C355,445 338,548 318,595 C308,610 298,595 292,555 C278,465 268,358 240,355 C212,355 202,465 188,555 C180,595 168,605 158,585 C135,525 112,415 88,315 C65,220 55,140 72,125 Z" fill="url(#dentinRed)" />
+
+    <!-- Pulp Chamber Cream Core -->
+    <path d="M105,185 C165,180 215,202 255,202 C295,202 335,182 368,188 C375,225 358,315 342,405 C328,485 318,555 308,588 C295,545 282,340 240,335 C198,335 185,540 170,582 C155,535 138,445 122,355 C108,275 98,210 105,185 Z" fill="#FDE6C4" />
+
+    <!-- Vascular Nerves (Red, Blue, Yellow) -->
+    <g fill="none" stroke-linecap="round">
+      <!-- Left Root Nerves -->
+      <path d="M170,575 C162,480 148,380 155,280 C158,245 140,220 125,205" stroke="#E11D48" stroke-width="3" />
+      <path d="M172,565 C168,470 158,370 168,285 C175,250 188,230 202,215" stroke="#1D4ED8" stroke-width="2.5" />
+      <path d="M166,550 C155,460 142,360 148,270 C152,240 168,220 182,208" stroke="#EAB308" stroke-width="2.5" />
+      <!-- Right Root Nerves -->
+      <path d="M308,578 C318,485 328,385 318,285 C312,245 328,220 345,205" stroke="#E11D48" stroke-width="3" />
+      <path d="M304,565 C312,475 318,375 305,285 C298,250 282,230 268,215" stroke="#1D4ED8" stroke-width="2.5" />
+      <path d="M312,555 C322,465 332,365 325,275 C320,240 302,220 288,208" stroke="#EAB308" stroke-width="2.5" />
+    </g>
+  </g>
+
+  <!-- Top-Left Card: Orthodontie et alignement -->
+  <g transform="translate(130, 175)" filter="url(#softShadow)">
+    <rect width="272" height="365" fill="#FFFFFF" />
+    <!-- Dental Icon -->
+    <g transform="translate(92, 50)" fill="none" stroke="#53615A" stroke-width="3">
+      <rect x="32" y="4" width="16" height="22" rx="3" />
+      <line x1="48" y1="12" x2="86" y2="12" stroke-width="4" />
+      <path d="M26,52 C26,38 54,38 54,52 L50,88 L40,72 L30,88 Z" />
+      <path d="M0,62 C12,56 18,62 24,66 L24,96 L0,96 Z" />
+      <path d="M56,66 C62,62 68,56 80,62 L80,96 L56,96 Z" />
+    </g>
+    <text x="136" y="200" font-family="Kanit, sans-serif" font-weight="600" font-size="22" fill="#0F172A" text-anchor="middle">Orthodontie et</text>
+    <text x="136" y="228" font-family="Kanit, sans-serif" font-weight="600" font-size="22" fill="#0F172A" text-anchor="middle">alignement</text>
+    <text x="136" y="276" font-family="Kanit, sans-serif" font-weight="300" font-size="16" fill="#475569" text-anchor="middle">Aligneurs et traitement</text>
+    <text x="136" y="312" font-family="Kanit, sans-serif" font-weight="300" font-size="16" fill="#475569" text-anchor="middle">multi attaches</text>
+  </g>
+
+  <!-- Bottom-Left Card: Soins préventifs -->
+  <g transform="translate(70, 588)" filter="url(#softShadow)">
+    <rect width="272" height="212" fill="#FFFFFF" />
+    <g transform="translate(102, 52)" fill="none" stroke="#53615A" stroke-width="2.8">
+      <path d="M15,8 C25,0 45,0 55,8 C62,16 58,34 48,42 L22,42 C12,34 8,16 15,8 Z" />
+      <path d="M22,52 L48,52 L45,76 L35,64 L25,76 Z" />
+      <line x1="0" y1="28" x2="40" y2="28" />
+    </g>
+    <text x="136" y="182" font-family="Kanit, sans-serif" font-weight="600" font-size="22" fill="#0F172A" text-anchor="middle">Soins préventifs</text>
+  </g>
+
+  <!-- Top-Right Card: Esthétique dentaire -->
+  <g transform="translate(1026, 175)" filter="url(#softShadow)">
+    <rect width="272" height="318" fill="#FFFFFF" />
+    <g transform="translate(100, 52)" fill="none" stroke="#53615A" stroke-width="2.8">
+      <circle cx="36" cy="18" r="10" />
+      <path d="M22,48 C22,36 50,36 50,48 L46,76 L36,64 L26,76 Z" />
+      <path d="M4,54 C14,48 20,54 20,64 L18,76 L6,76 Z" />
+      <path d="M52,64 C52,54 58,48 68,54 L66,76 L54,76 Z" />
+    </g>
+    <text x="136" y="182" font-family="Kanit, sans-serif" font-weight="600" font-size="22" fill="#0F172A" text-anchor="middle">Esthétique dentaire</text>
+    <text x="136" y="230" font-family="Kanit, sans-serif" font-weight="300" font-size="16" fill="#475569" text-anchor="middle">Blanchiment, couronnes et</text>
+    <text x="136" y="266" font-family="Kanit, sans-serif" font-weight="300" font-size="16" fill="#475569" text-anchor="middle">solutions sur-mesure.</text>
+  </g>
+
+  <!-- Bottom-Right Card: Chirurgie et prothèses -->
+  <g transform="translate(1086, 540)" filter="url(#softShadow)">
+    <rect width="272" height="260" fill="#FFFFFF" />
+    <text x="136" y="182" font-family="Kanit, sans-serif" font-weight="600" font-size="22" fill="#0F172A" text-anchor="middle">Chirurgie et</text>
+    <text x="136" y="210" font-family="Kanit, sans-serif" font-weight="600" font-size="22" fill="#0F172A" text-anchor="middle">prothèses</text>
+    <text x="136" y="252" font-family="Kanit, sans-serif" font-weight="300" font-size="16" fill="#475569" text-anchor="middle">Interventions et</text>
+  </g>
+
+  <!-- Welcome Toast Pill -->
+  <g transform="translate(1070, 622)" filter="url(#softShadow)">
+    <rect width="322" height="52" rx="14" fill="#FFFFFF" fill-opacity="0.92" />
+    <circle cx="44" cy="-6" r="32" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" />
+    <rect x="28" y="-18" width="32" height="16" rx="8" fill="#334155" />
+    <circle cx="38" cy="-10" r="3" fill="#FFFFFF" />
+    <circle cx="50" cy="-10" r="3" fill="#FFFFFF" />
+    <text x="182" y="31" font-family="Kanit, sans-serif" font-size="14" fill="#475569" text-anchor="middle">Bienvenue à <tspan font-weight="700" fill="#334155">White Dental Clinic!</tspan></text>
+  </g>
+
+  <!-- Green WhatsApp Floating Badge -->
+  <g transform="translate(14, 705)">
+    <circle cx="30" cy="30" r="30" fill="#25D366" />
+    <path d="M30,15 C21.7,15 15,21.5 15,29.5 C15,32.2 15.8,34.8 17.2,37 L15.2,44.5 L23,42.5 C25.1,43.6 27.5,44.2 30,44.2 C38.3,44.2 45,37.7 45,29.6 C45,21.5 38.3,15 30,15 Z" fill="none" stroke="#FFFFFF" stroke-width="2.5" />
+  </g>
+</svg>

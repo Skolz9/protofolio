@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 800" width="1440" height="800">
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#0F172A" flood-opacity="0.07" />
+    </filter>
+  </defs>
+
+  <!-- White Canvas -->
+  <rect width="1440" height="800" fill="#FFFFFF" />
+
+  <!-- Left Side Portrait Strip -->
+  <g transform="translate(0, 28)">
+    <rect width="235" height="678" fill="#E2E8F0" />
+    <path d="M90,0 L235,0 L235,320 L90,260 Z" fill="#EC4899" opacity="0.85" />
+    <ellipse cx="105" cy="275" rx="115" ry="155" fill="#F5D0B5" />
+    <!-- Smiling Mouth -->
+    <path d="M72,325 C105,305 155,305 178,325 C162,362 105,365 72,325 Z" fill="#FFFFFF" stroke="#9F1239" stroke-width="4" />
+    <!-- Blue Gloved Hand -->
+    <path d="M0,510 C65,455 155,445 215,505 L235,678 L0,678 Z" fill="#3B82F6" />
+    <!-- Top-Left White Logo Overlay -->
+    <text x="20" y="58" font-family="Georgia, serif" font-style="italic" font-size="42" fill="#FFFFFF">White</text>
+    <text x="142" y="36" font-family="Kanit, sans-serif" font-size="15" fill="#FFFFFF">Dental Clinic</text>
+    <text x="142" y="54" font-family="sans-serif" font-size="14" fill="#FFFFFF">مصحة الأسنان</text>
+  </g>
+
+  <!-- Right Side Portrait Strip -->
+  <g transform="translate(1200, 28)">
+    <rect width="240" height="678" fill="#D6D3D1" />
+    <ellipse cx="155" cy="265" rx="120" ry="165" fill="#F3C9A8" />
+    <path d="M88,335 C115,320 158,335 175,365 C148,392 105,375 88,335 Z" fill="#FFFFFF" stroke="#BE123C" stroke-width="4" />
+    <!-- Shade Guide Fan -->
+    <path d="M25,425 L195,555 L165,595 L-5,465 Z" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2" />
+  </g>
+
+  <!-- Main Heading -->
+  <text x="720" y="130" font-family="Kanit, sans-serif" font-weight="300" font-size="44" fill="#0F172A" text-anchor="middle">Témoignages de nos patients</text>
+
+  <!-- Review Card 1: Hindoss Abilamaa -->
+  <g transform="translate(248, 220)" filter="url(#cardShadow)">
+    <rect width="300" height="295" rx="12" fill="#FFFFFF" />
+    <!-- Orange Avatar Circle -->
+    <circle cx="150" cy="0" r="38" fill="#EA6A00" />
+    <text x="150" y="14" font-family="Kanit, sans-serif" font-weight="500" font-size="40" fill="#FFFFFF" text-anchor="middle">H</text>
+    <!-- Google G Icon -->
+    <circle cx="28" cy="34" r="10" fill="none" stroke="#4285F4" stroke-width="4" />
+    <text x="150" y="80" font-family="Kanit, sans-serif" font-weight="700" font-size="22" fill="#1E293B" text-anchor="middle">Hindoss Abilamaa</text>
+    <text x="150" y="112" font-family="sans-serif" font-size="22" fill="#F59E0B" letter-spacing="3" text-anchor="middle">★★★★★</text>
+    <text x="150" y="136" font-family="Kanit, sans-serif" font-weight="300" font-size="14" fill="#94A3B8" text-anchor="middle">avril 5, 2025</text>
+
+    <g font-family="Kanit, sans-serif" font-weight="300" font-size="16" fill="#334155" text-anchor="middle">
+      <text x="150" y="178">Excellent service.</text>
+      <text x="150" y="204">Professionnalisme et sympathie.</text>
+      <text x="150" y="230">Reception Khadija Top. Je</text>
+      <text x="150" y="256">recommande <tspan fill="#0284C7" text-decoration="underline">Read more</tspan></text>
+    </g>
+  </g>
+
+  <!-- Review Card 2: Aissa Chyhab -->
+  <g transform="translate(568, 220)" filter="url(#cardShadow)">
+    <rect width="300" height="218" rx="12" fill="#FFFFFF" />
+    <!-- Green Avatar Circle -->
+    <circle cx="150" cy="0" r="38" fill="#2E5A27" />
+    <text x="150" y="14" font-family="Kanit, sans-serif" font-weight="500" font-size="40" fill="#FFFFFF" text-anchor="middle">A</text>
+    <!-- Google G Icon -->
+    <circle cx="28" cy="34" r="10" fill="none" stroke="#4285F4" stroke-width="4" />
+    <text x="150" y="80" font-family="Kanit, sans-serif" font-weight="700" font-size="22" fill="#1E293B" text-anchor="middle">Aissa Chyhab</text>
+    <text x="150" y="112" font-family="sans-serif" font-size="22" fill="#F59E0B" letter-spacing="3" text-anchor="middle">★★★★★</text>
+    <text x="150" y="136" font-family="Kanit, sans-serif" font-weight="300" font-size="14" fill="#94A3B8" text-anchor="middle">avril 5, 2025</text>
+    <text x="150" y="178" font-family="Kanit, sans-serif" font-weight="300" font-size="16" fill="#334155" text-anchor="middle">Excellent 👍</text>
+  </g>
+
+  <!-- Review Card 3: Mariam Jebbour -->
+  <g transform="translate(888, 220)" filter="url(#cardShadow)">
+    <rect width="300" height="218" rx="12" fill="#FFFFFF" />
+    <!-- Taupe Avatar Circle -->
+    <circle cx="150" cy="0" r="38" fill="#7C6860" />
+    <text x="150" y="14" font-family="Kanit, sans-serif" font-weight="500" font-size="40" fill="#FFFFFF" text-anchor="middle">M</text>
+    <!-- Google G Icon -->
+    <circle cx="28" cy="34" r="10" fill="none" stroke="#4285F4" stroke-width="4" />
+    <text x="150" y="80" font-family="Kanit, sans-serif" font-weight="700" font-size="22" fill="#1E293B" text-anchor="middle">Mariam Jebbour</text>
+    <text x="150" y="112" font-family="sans-serif" font-size="22" fill="#F59E0B" letter-spacing="3" text-anchor="middle">★★★★★</text>
+    <text x="150" y="136" font-family="Kanit, sans-serif" font-weight="300" font-size="14" fill="#94A3B8" text-anchor="middle">avril 4, 2025</text>
+    <text x="150" y="178" font-family="Kanit, sans-serif" font-weight="300" font-size="16" fill="#334155" text-anchor="middle">Excellent service!</text>
+  </g>
+
+  <!-- Laissez un avis Button -->
+  <g transform="translate(612, 562)">
+    <rect width="212" height="64" rx="6" fill="#53615A" />
+    <text x="106" y="40" font-family="Kanit, sans-serif" font-weight="300" font-size="20" fill="#FFFFFF" text-anchor="middle">Laissez un avis</text>
+  </g>
+
+  <!-- Green WhatsApp Floating Badge -->
+  <g transform="translate(14, 705)">
+    <circle cx="30" cy="30" r="30" fill="#25D366" />
+    <path d="M30,15 C21.7,15 15,21.5 15,29.5 C15,32.2 15.8,34.8 17.2,37 L15.2,44.5 L23,42.5 C25.1,43.6 27.5,44.2 30,44.2 C38.3,44.2 45,37.7 45,29.6 C45,21.5 38.3,15 30,15 Z" fill="none" stroke="#FFFFFF" stroke-width="2.5" />
+  </g>
+</svg>

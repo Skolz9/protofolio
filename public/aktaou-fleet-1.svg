@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 800" width="1440" height="800">
+  <rect width="1440" height="800" fill="#FFFFFF" />
+
+  <!-- Top Header Bar -->
+  <g transform="translate(115, 28)">
+    <text x="0" y="22" font-family="Kanit, Impact, sans-serif" font-weight="900" font-size="24" fill="#0F172A" letter-spacing="1.5">AKTAOU</text>
+    <text x="86" y="22" font-family="Kanit, Impact, sans-serif" font-weight="900" font-size="24" fill="#0055FF" letter-spacing="1.5">CAR</text>
+    <g font-family="Kanit, sans-serif" font-size="15" font-weight="400" fill="#334155" transform="translate(380, 20)">
+      <text x="0" y="0">Home</text>
+      <text x="68" y="0">Fleet</text>
+      <text x="130" y="0">Services</text>
+      <text x="215" y="0">About</text>
+      <text x="285" y="0">Blog</text>
+      <text x="342" y="0">Contact</text>
+    </g>
+    <rect x="1108" y="-3" width="96" height="38" rx="19" fill="#0055FF" />
+    <text x="1156" y="21" font-family="Kanit, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle">Reserve</text>
+  </g>
+
+  <!-- Card 1: Renault Clio 5 -->
+  <g transform="translate(75, 130)">
+    <rect width="625" height="630" rx="28" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2" />
+    <rect x="45" y="30" width="535" height="310" rx="16" fill="#FFFFFF" />
+
+    <!-- Badge -->
+    <rect x="24" y="24" width="178" height="32" rx="16" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2" />
+    <text x="113" y="45" font-family="Kanit, sans-serif" font-size="12" font-weight="600" fill="#475569" letter-spacing="1.2" text-anchor="middle">ECONOMY HATCHBACK</text>
+
+    <!-- White Renault Clio 5 Illustration -->
+    <g transform="translate(125, 115)">
+      <ellipse cx="185" cy="165" rx="160" ry="18" fill="#64748B" opacity="0.35" />
+      <path d="M35,115 C42,88 78,72 125,62 L185,22 C240,5 315,8 355,45 L375,85 C388,100 390,128 382,148 L35,148 Z" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="2" />
+      <path d="M135,62 L190,28 C235,16 295,18 332,48 L345,65 Z" fill="#1E293B" />
+      <!-- Front Grille & C-Shaped DRLs -->
+      <path d="M38,102 L125,98 L115,126 L35,122 Z" fill="#0F172A" />
+      <path d="M122,95 L162,88 L152,112 L118,112 Z" fill="#38BDF8" opacity="0.7" />
+      <!-- Wheels -->
+      <circle cx="245" cy="142" r="34" fill="#1E293B" stroke="#94A3B8" stroke-width="5" />
+      <circle cx="245" cy="142" r="14" fill="#CBD5E1" />
+      <circle cx="355" cy="132" r="28" fill="#1E293B" stroke="#94A3B8" stroke-width="4" />
+    </g>
+
+    <!-- Title & Price -->
+    <text x="32" y="438" font-family="Kanit, Impact, sans-serif" font-weight="800" font-size="40" fill="#0F172A">Renault Clio 5</text>
+    <text x="478" y="440" font-family="Kanit, sans-serif" font-weight="700" font-size="22" fill="#0055FF">300 MAD</text>
+    <text x="568" y="440" font-family="Kanit, sans-serif" font-weight="400" font-size="14" fill="#64748B">/ day</text>
+
+    <!-- Specs Row -->
+    <g transform="translate(32, 480)" font-family="Kanit, sans-serif">
+      <text x="0" y="0" font-size="13" fill="#64748B" letter-spacing="1">TRANSMISSION</text>
+      <text x="0" y="26" font-size="17" font-weight="600" fill="#0F172A">Manual</text>
+
+      <text x="145" y="0" font-size="13" fill="#64748B" letter-spacing="1">FUEL</text>
+      <text x="145" y="26" font-size="17" font-weight="600" fill="#0F172A">Petrol</text>
+
+      <text x="288" y="0" font-size="13" fill="#64748B" letter-spacing="1">PASSENGERS</text>
+      <text x="288" y="26" font-size="17" font-weight="600" fill="#0F172A">5</text>
+
+      <text x="432" y="0" font-size="13" fill="#64748B" letter-spacing="1">LUGGAGE</text>
+      <text x="432" y="26" font-size="17" font-weight="600" fill="#0F172A">2</text>
+    </g>
+
+    <!-- Buttons -->
+    <rect x="32" y="542" width="424" height="54" rx="27" fill="#0055FF" />
+    <text x="244" y="575" font-family="Kanit, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">Reserve This Car</text>
+
+    <rect x="468" y="542" width="125" height="54" rx="27" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+    <text x="530" y="575" font-family="Kanit, sans-serif" font-size="15" font-weight="600" fill="#0F172A" text-anchor="middle">View details</text>
+  </g>
+
+  <!-- Card 2: Peugeot 208 -->
+  <g transform="translate(735, 130)">
+    <rect width="625" height="630" rx="28" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2" />
+    <rect x="45" y="30" width="535" height="310" rx="16" fill="#FFFFFF" />
+
+    <!-- Badge -->
+    <rect x="24" y="24" width="178" height="32" rx="16" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2" />
+    <text x="113" y="45" font-family="Kanit, sans-serif" font-size="12" font-weight="600" fill="#475569" letter-spacing="1.2" text-anchor="middle">ECONOMY HATCHBACK</text>
+
+    <!-- White Peugeot 208 Illustration -->
+    <g transform="translate(115, 100)">
+      <ellipse cx="205" cy="185" rx="175" ry="20" fill="#64748B" opacity="0.35" />
+      <path d="M28,125 C36,92 82,74 135,62 L205,18 C265,2 345,8 385,50 L405,95 C418,112 418,142 408,162 L28,162 Z" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2" />
+      <path d="M145,62 L208,24 C258,12 322,16 362,50 L375,68 Z" fill="#0F172A" />
+      <!-- Peugeot Fang LEDs & Dark Grille -->
+      <path d="M35,105 L125,100 L118,148 L35,142 Z" fill="#0F172A" />
+      <line x1="128" y1="108" x2="120" y2="148" stroke="#38BDF8" stroke-width="4" />
+      <line x1="138" y1="108" x2="130" y2="148" stroke="#38BDF8" stroke-width="4" />
+      <line x1="148" y1="108" x2="140" y2="148" stroke="#38BDF8" stroke-width="4" />
+      <!-- Wheels -->
+      <circle cx="235" cy="154" r="38" fill="#0F172A" stroke="#94A3B8" stroke-width="5" />
+      <circle cx="235" cy="154" r="16" fill="#CBD5E1" />
+      <circle cx="378" cy="142" r="30" fill="#0F172A" stroke="#94A3B8" stroke-width="4" />
+    </g>
+
+    <!-- Title & Price -->
+    <text x="32" y="438" font-family="Kanit, Impact, sans-serif" font-weight="800" font-size="40" fill="#0F172A">Peugeot 208</text>
+    <text x="478" y="440" font-family="Kanit, sans-serif" font-weight="700" font-size="22" fill="#0055FF">320 MAD</text>
+    <text x="568" y="440" font-family="Kanit, sans-serif" font-weight="400" font-size="14" fill="#64748B">/ day</text>
+
+    <!-- Specs Row -->
+    <g transform="translate(32, 480)" font-family="Kanit, sans-serif">
+      <text x="0" y="0" font-size="13" fill="#64748B" letter-spacing="1">TRANSMISSION</text>
+      <text x="0" y="26" font-size="17" font-weight="600" fill="#0F172A">Manual</text>
+
+      <text x="145" y="0" font-size="13" fill="#64748B" letter-spacing="1">FUEL</text>
+      <text x="145" y="26" font-size="17" font-weight="600" fill="#0F172A">Petrol</text>
+
+      <text x="288" y="0" font-size="13" fill="#64748B" letter-spacing="1">PASSENGERS</text>
+      <text x="288" y="26" font-size="17" font-weight="600" fill="#0F172A">5</text>
+
+      <text x="432" y="0" font-size="13" fill="#64748B" letter-spacing="1">LUGGAGE</text>
+      <text x="432" y="26" font-size="17" font-weight="600" fill="#0F172A">2</text>
+    </g>
+
+    <!-- Buttons -->
+    <rect x="32" y="542" width="424" height="54" rx="27" fill="#0055FF" />
+    <text x="244" y="575" font-family="Kanit, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">Reserve This Car</text>
+
+    <rect x="468" y="542" width="125" height="54" rx="27" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+    <text x="530" y="575" font-family="Kanit, sans-serif" font-size="15" font-weight="600" fill="#0F172A" text-anchor="middle">View details</text>
+  </g>
+</svg>

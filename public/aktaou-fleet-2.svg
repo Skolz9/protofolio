@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 800" width="1440" height="800">
+  <rect width="1440" height="800" fill="#FFFFFF" />
+
+  <!-- Top Header Bar -->
+  <g transform="translate(115, 28)">
+    <text x="0" y="22" font-family="Kanit, Impact, sans-serif" font-weight="900" font-size="24" fill="#0F172A" letter-spacing="1.5">AKTAOU</text>
+    <text x="86" y="22" font-family="Kanit, Impact, sans-serif" font-weight="900" font-size="24" fill="#0055FF" letter-spacing="1.5">CAR</text>
+    <g font-family="Kanit, sans-serif" font-size="15" font-weight="400" fill="#334155" transform="translate(380, 20)">
+      <text x="0" y="0">Home</text>
+      <text x="68" y="0">Fleet</text>
+      <text x="130" y="0">Services</text>
+      <text x="215" y="0">About</text>
+      <text x="285" y="0">Blog</text>
+      <text x="342" y="0">Contact</text>
+    </g>
+    <rect x="1108" y="-3" width="96" height="38" rx="19" fill="#0055FF" />
+    <text x="1156" y="21" font-family="Kanit, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle">Reserve</text>
+  </g>
+
+  <!-- Card 1: Dongfeng Shine -->
+  <g transform="translate(75, 130)">
+    <rect width="625" height="630" rx="28" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2" />
+    <!-- Dark Slate Wall Photo Backdrop -->
+    <rect x="108" y="18" width="410" height="340" rx="8" fill="#333B48" />
+    <rect x="108" y="285" width="410" height="73" fill="#6B5E4C" />
+
+    <!-- Badge -->
+    <rect x="24" y="24" width="142" height="32" rx="16" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2" />
+    <text x="95" y="45" font-family="Kanit, sans-serif" font-size="12" font-weight="600" fill="#475569" letter-spacing="1.2" text-anchor="middle">COMPACT SEDAN</text>
+
+    <!-- White Dongfeng Shine Sedan Illustration -->
+    <g transform="translate(115, 110)">
+      <path d="M18,125 C28,95 75,78 130,68 L205,28 C265,12 342,18 378,52 L392,90 C402,108 402,135 392,155 L18,155 Z" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2" />
+      <path d="M140,68 L205,34 C255,22 320,24 358,54 L368,72 Z" fill="#1E293B" />
+      <path d="M22,108 L108,104 L100,148 L22,142 Z" fill="#0F172A" />
+      <!-- Sport Wheels with Orange Caliper Accent -->
+      <circle cx="195" cy="152" r="36" fill="#0F172A" stroke="#475569" stroke-width="5" />
+      <circle cx="185" cy="152" r="8" fill="#EA580C" />
+      <circle cx="368" cy="135" r="28" fill="#0F172A" stroke="#475569" stroke-width="4" />
+    </g>
+
+    <!-- Title & Price -->
+    <text x="32" y="438" font-family="Kanit, Impact, sans-serif" font-weight="800" font-size="40" fill="#0F172A">Dongfeng Shine</text>
+    <text x="478" y="440" font-family="Kanit, sans-serif" font-weight="700" font-size="22" fill="#0055FF">330 MAD</text>
+    <text x="568" y="440" font-family="Kanit, sans-serif" font-weight="400" font-size="14" fill="#64748B">/ day</text>
+
+    <!-- Specs Row -->
+    <g transform="translate(32, 480)" font-family="Kanit, sans-serif">
+      <text x="0" y="0" font-size="13" fill="#64748B" letter-spacing="1">TRANSMISSION</text>
+      <text x="0" y="26" font-size="17" font-weight="600" fill="#0F172A">Manual</text>
+
+      <text x="145" y="0" font-size="13" fill="#64748B" letter-spacing="1">FUEL</text>
+      <text x="145" y="26" font-size="17" font-weight="600" fill="#0F172A">Petrol</text>
+
+      <text x="288" y="0" font-size="13" fill="#64748B" letter-spacing="1">PASSENGERS</text>
+      <text x="288" y="26" font-size="17" font-weight="600" fill="#0F172A">5</text>
+
+      <text x="432" y="0" font-size="13" fill="#64748B" letter-spacing="1">LUGGAGE</text>
+      <text x="432" y="26" font-size="17" font-weight="600" fill="#0F172A">3</text>
+    </g>
+
+    <!-- Buttons -->
+    <rect x="32" y="542" width="424" height="54" rx="27" fill="#0055FF" />
+    <text x="244" y="575" font-family="Kanit, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">Reserve This Car</text>
+
+    <rect x="468" y="542" width="125" height="54" rx="27" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+    <text x="530" y="575" font-family="Kanit, sans-serif" font-size="15" font-weight="600" fill="#0F172A" text-anchor="middle">View details</text>
+  </g>
+
+  <!-- Card 2: Dacia Logan -->
+  <g transform="translate(735, 130)">
+    <rect width="625" height="630" rx="28" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2" />
+    <rect x="48" y="28" width="528" height="325" rx="12" fill="#E5E7EB" />
+
+    <!-- Badge -->
+    <rect x="24" y="24" width="142" height="32" rx="16" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2" />
+    <text x="95" y="45" font-family="Kanit, sans-serif" font-size="12" font-weight="600" fill="#475569" letter-spacing="1.2" text-anchor="middle">ECONOMY SEDAN</text>
+
+    <!-- White Dacia Logan Sedan Illustration -->
+    <g transform="translate(105, 95)">
+      <ellipse cx="210" cy="185" rx="185" ry="20" fill="#374151" opacity="0.4" />
+      <path d="M25,122 C35,90 80,74 135,64 L205,20 C272,6 355,10 392,52 L412,95 C422,112 422,142 412,162 L25,162 Z" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2" />
+      <path d="M145,64 L208,26 C265,14 335,18 372,52 L385,72 Z" fill="#111827" />
+      <path d="M28,98 L108,95 L102,126 L28,122 Z" fill="#1F2937" />
+      <!-- Wheels -->
+      <circle cx="195" cy="156" r="36" fill="#1F2937" stroke="#9CA3AF" stroke-width="5" />
+      <circle cx="195" cy="156" r="18" fill="#D1D5DB" />
+      <circle cx="378" cy="144" r="32" fill="#1F2937" stroke="#9CA3AF" stroke-width="4" />
+      <circle cx="378" cy="144" r="15" fill="#D1D5DB" />
+    </g>
+
+    <!-- Title & Price -->
+    <text x="32" y="438" font-family="Kanit, Impact, sans-serif" font-weight="800" font-size="40" fill="#0F172A">Dacia Logan</text>
+    <text x="478" y="440" font-family="Kanit, sans-serif" font-weight="700" font-size="22" fill="#0055FF">300 MAD</text>
+    <text x="568" y="440" font-family="Kanit, sans-serif" font-weight="400" font-size="14" fill="#64748B">/ day</text>
+
+    <!-- Specs Row -->
+    <g transform="translate(32, 480)" font-family="Kanit, sans-serif">
+      <text x="0" y="0" font-size="13" fill="#64748B" letter-spacing="1">TRANSMISSION</text>
+      <text x="0" y="26" font-size="17" font-weight="600" fill="#0F172A">Manual</text>
+
+      <text x="145" y="0" font-size="13" fill="#64748B" letter-spacing="1">FUEL</text>
+      <text x="145" y="26" font-size="17" font-weight="600" fill="#0F172A">Diesel</text>
+
+      <text x="288" y="0" font-size="13" fill="#64748B" letter-spacing="1">PASSENGERS</text>
+      <text x="288" y="26" font-size="17" font-weight="600" fill="#0F172A">5</text>
+
+      <text x="432" y="0" font-size="13" fill="#64748B" letter-spacing="1">LUGGAGE</text>
+      <text x="432" y="26" font-size="17" font-weight="600" fill="#0F172A">3</text>
+    </g>
+
+    <!-- Buttons -->
+    <rect x="32" y="542" width="424" height="54" rx="27" fill="#0055FF" />
+    <text x="244" y="575" font-family="Kanit, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">Reserve This Car</text>
+
+    <rect x="468" y="542" width="125" height="54" rx="27" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+    <text x="530" y="575" font-family="Kanit, sans-serif" font-size="15" font-weight="600" fill="#0F172A" text-anchor="middle">View details</text>
+  </g>
+</svg>

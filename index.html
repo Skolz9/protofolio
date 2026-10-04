@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script>
+      (function () {
+        try {
+          var currentFetch = typeof window.fetch === 'function' ? window.fetch.bind(window) : window.fetch;
+          Object.defineProperty(window, 'fetch', {
+            configurable: true,
+            enumerable: true,
+            get: function () {
+              return currentFetch;
+            },
+            set: function (fn) {
+              currentFetch = fn;
+            },
+          });
+        } catch (e) {
+          try {
+            var protoFetch =
+              typeof Window !== 'undefined' && Window.prototype && Window.prototype.fetch
+                ? Window.prototype.fetch
+                : undefined;
+            if (protoFetch) {
+              Object.defineProperty(Window.prototype, 'fetch', {
+                configurable: true,
+                enumerable: true,
+                writable: true,
+                value: protoFetch,
+              });
+            }
+          } catch (err) {}
+        }
+      })();
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jack — 3D Creator</title>
+    <meta name="description" content="3D Creator portfolio landing page for Jack showcasing 3D modeling, photorealistic rendering, motion design, branding, and web design." />
+    <meta property="og:title" content="Jack — 3D Creator" />
+    <meta property="og:description" content="3D Creator portfolio landing page for Jack showcasing 3D modeling, photorealistic rendering, motion design, branding, and web design." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
